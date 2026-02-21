@@ -8,7 +8,7 @@ const App = () => {
         <p>Software Engineer</p>
       </div>
       {card()}
-    </div>
+    </div> +
   )
 }
 
