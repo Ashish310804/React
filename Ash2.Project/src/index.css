@@ -1,32 +1,16 @@
-html,body{
-  height:100%;
-  margin:0;
-  padding:0;
-  width:100%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: #fff;
 }
-.card{
-  background-color: #16ac4d;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+html,
+body {
+    height: 100%;
+    width: 100%;
 }
-.card h1{
-  color: #fff;
-  font-size: 24px;
-  margin: 0;
-  padding: 16px;
-}
-.card p{
-  color: #fff;
-  font-size: 16px;
-  margin: 0;
-  padding: 0 16px 16px;
-}
-.navbar{
-  background-color: #333;
-  color: #fff;
-  padding: 16px;
-}
-.navbar h1{
-  margin: 0;
-  font-size: 24px; 
+
+body{
+  background-color: #111;
 }
