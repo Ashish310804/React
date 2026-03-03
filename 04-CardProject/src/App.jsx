@@ -104,9 +104,7 @@ const App = () => {
       location: "Mumbai, India"
     }
   ];
-
-
-  return (
+return (
     <div className='parent'>
       {jobOpenings.map(function (elem, idx) {
         return <div key={idx}>
