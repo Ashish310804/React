@@ -9,7 +9,7 @@ const Card = (props) => {
                     <button>Save <Bookmark size={10} /> </button>
                 </div>
                 <div className="center">
-                    <h3>{props.company} <span>{props.datePosted}</span></h3>
+                     <h3>{props.company} <span>{props.datePosted}</span></h3>
                     <h2>{props.post}</h2>
                     <div className='tag'>
                         <h4>{props.tag1}</h4>
